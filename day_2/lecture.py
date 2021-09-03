@@ -7,7 +7,7 @@
 def my_old_function():
     print("Hello")
 
-# "Call" the function to run the code by adding single braces after the name of the function.
+# "Call" the function to run the code by adding single braces after the name of the function. No colon for call.
 
 my_old_function()
 

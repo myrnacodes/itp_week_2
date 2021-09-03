@@ -25,10 +25,21 @@
 # Dictionaries are written with curly brackets, and have keys and values:
 
 my_car = {
+  "first_car": {
   "brand": "Ford",
   "model": "Mustang",
   "year": 2021,
   "interest": 22
+}, 
+my_other_cars = {
+  "second_car": "honda civic",
+  "third_car": 24
+}
+
+my_other_cars = {
+  "first_car": my_car,
+  "second_car": "honda civic",
+  "third_car": 24
 }
 
 # Dictionary items are ordered, changeable, and does not allow duplicates.
@@ -87,7 +98,7 @@ your_car['brand']
 # and of course, by itself, it does nothing
 # so we want to assign it to a variable
 
-your_car_brand = your_car['brand']
+car_brand = your_car['brand'] # print(your_car_brand) will print 'Toyota'
 
 # why do we assign a variable from the dictionary
 # Instead of just typing out the string again?
